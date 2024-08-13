@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Victor Hugo Borrayo Herrera</h1>
+        <p class="tagline">Aún en desarrollo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Predicción de cobertura en red mesh</h3>
+                <p>Se desarrolló un ETL en premisas que automatizó la extracción y almacenamiento en un DataLake. Con técnicas estadísticas y de Machine Learning se identificaron anomalías e imputaron.
+                    Los datos limpios del Data Mart se enriquecieron con información de altimetría e imagenes satelitales proveídas por API's de Google.
+                    Se aplicó ingeniería de características para mejorar la precisión de los modelos de Machine Learning y de Deep Learning.
+                    Se utilizó MLFlow para el seguimiento de los experimentos y el análisis final de los resultados.
+                </p>
+                <a href="https://github.com/VictorHugoBorrayo/GradPorject-WMN-AI/tree/main" target="_blank">Github</a>
+            </div>
+            <div class="project">
+                <h3>Ingeniería de datos con Azure</h3>
+                <p>Participación en el desarrollo y mantenimiento de un sistema de ingeniería de datos que utiliza Function Apps y Synapse para orquestrar el ETL de que nutre un DataWarehouse.
+                    Existen ciertas automatizaciones que utilizan eventos para la ejecución de determinados pipelines cuando se han alojado los datos de origen en su sitio.
+                    Durante el desarrollo se utilizan pipelines de CICD que permiten la integración eficiente de los cambios en los distintos ambientes.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Aplicativo para recolección datos en campo</h3>
+                <p>Aplicativo montado en la nube de Azure haciendo uso de Container Registry, WebApp, Base de datos serverless y blob storage.
+                    Se automatizó la labor de recolección de datos de cuadrillas de técnicos realizando trabajos en campo, ordenación de fotografías y seguimiento de materiales.
+                    Con lo anterior se crearon herramientas para la gestión de la aplicación y el análisis de datos con herramientas como Power Bi.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Aplicativo para empresa de contabilidad</h3>
+                <p>Utilizando Flask y App Service de Azure se desarrollo un aplicativo customizable por medio de tablas de configuración y registros No SQL.
+                    Se eficientó la toma de datos y se automatizó la generación de reportes, los cuales son dinámicos y se pueden customizar con plantillas Json.
+                    Para asegurar la seguridad se utilizó Azure VPN Gateway para el acceso a la aplicación de parte de los usuarios.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Software Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>PySpark</li>
+            <li>SQL</li>
+            <li>R</li>
+            <li>C</li>
+            <li>VBA</li>
+            <li>JavaScript</li>
+            <li>Embeeded C</li>
+            <li>VHDL</li>
+            <li>Power Bi</li>            
+            <li>GCP</li>
+            <li>Azure</li>
+            <li>GCP</li>
+            <li>Docker</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Victor Borrayo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
